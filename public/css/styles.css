@@ -5,6 +5,7 @@
     --title-color: #363636;
     --text-color: #4a4a4a;
     --shadow-opacity: 0.25;
+    --lighter-shadow-opacity: 0.25;
 }
 
 /* switch to dark mode color */
@@ -15,6 +16,7 @@
         --title-color: #f0f0f0;
         --text-color: #e4e4e4;
         --shadow-opacity: 0.5;
+        --lighter-shadow-opacity: 0.35;
     }
 }
 
@@ -24,15 +26,15 @@
 }
 
 .object .has-shadow {
-    box-shadow: 0px 30px 45px -15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 30px 45px -15px rgba(0, 0, 0, var(--lighter-shadow-opacity));
 }
 
 .has-bottom-shadow {
-    box-shadow: inset 0px -25px 45px -30px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0px -25px 45px -30px rgba(0, 0, 0, var(--lighter-shadow-opacity));
 }
 
 .has-strong-bottom-shadow {
-    box-shadow: inset 0px -25px 45px -30px rgba(0, 0, 0, 0.35);   
+    box-shadow: inset 0px -25px 45px -30px rgba(0, 0, 0, var(--shadow-opacity));   
 }
 
 .card-view {
@@ -71,6 +73,17 @@
     border-radius: 8px;
     background-color: var(--card-background);
     box-shadow: 0px 25px 35px -25px rgba(0, 0, 0, var(--shadow-opacity));
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+.grow:hover {
+    transform: scale(1.02)
+}
+
+.card-view .grow:hover {
+    box-shadow: 0px 28px 28px -20px rgba(0, 0, 0, var(--shadow-opacity));
 }
 
 .card-image .image img {
