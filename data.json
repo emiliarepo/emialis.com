@@ -1,0 +1,96 @@
+{
+    "projects": [
+        {
+            "title": "jColour",
+            "description": "Discord bot for managing colour, custom hex and opt-in roles",
+            "image": "images/assets/jcolour.png",
+            "square": false,
+            "link": "https://jcolour.honkmaster.ninja",
+            "newTab": true
+        },
+        {
+            "title": "Berrymeat MC",
+            "description": "Minecraft server network with a Discord login workflow and custom events",
+            "image": "images/assets/berrymeat.png",
+            "square": false,
+            "link": "https://berrymeat.com",
+            "newTab": true
+        },
+        {
+            "title": "jaqreven.com",
+            "description": "what",
+            "image": "images/assets/jaqreven.png",
+            "square": false,
+            "link": "https://jaqreven.com",
+            "newTab": true
+        }
+    ],
+    "fursonas": [
+        {
+            "title": "jaqreven",
+            "description": "deer - she/her",
+            "image": "images/jaqreven/icon.png",
+            "square": true,
+            "link": "https://jaqreven.com",
+            "newTab": false
+        },
+        {
+            "title": "pilvi",
+            "description": "sheep - she/her",
+            "image": "images/pilvi/icon.png",
+            "square": true,
+            "link": "https://jaqreven.com",
+            "newTab": false
+        },
+        {
+            "title": "siru",
+            "description": "red panda - they/them",
+            "image": "images/siru/headshot.png",
+            "square": true,
+            "link": "https://jaqreven.com",
+            "newTab": false
+        }
+    ],
+    "contacts": [
+        {
+            "title": "telegram",
+            "description": "@jaqreven",
+            "image": "images/assets/telegram.png",
+            "square": false,
+            "link": "https://t.me/jaqreven",
+            "newTab": true
+        },
+        {
+            "title": "discord",
+            "description": "jaqreven#9891",
+            "image": "images/assets/discord.png",
+            "square": false,
+            "link": "https://discord.com",
+            "newTab": true
+        },
+        {
+            "title": "twitter",
+            "description": "jaqreven",
+            "image": "images/assets/twitter.png",
+            "square": false,
+            "link": "https://twitter.com/jaqreven",
+            "newTab": true
+        },
+        {
+            "title": "youtube",
+            "description": "jaqreven",
+            "image": "images/assets/youtube.png",
+            "square": false,
+            "link": "https://www.youtube.com/channel/UCCX-rVCiUYTKKtfBU1jdacg",
+            "newTab": true
+        },
+        {
+            "title": "reddit",
+            "description": "jaqreven",
+            "image": "images/assets/reddit.png",
+            "square": false,
+            "link": "https://reddit.com/u/jaqreven",
+            "newTab": true
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+<div class="full-width">
+    <div class="scroll-button-wrapper is-hidden-mobile field has-addons">
+        <p class="control">
+            <button class="button is-rounded" onclick=move(this,true)>
+                <span class="icon is-small">
+                    <i class="fas fa-chevron-left"></i>
+                </span>
+            </button>
+        </p>
+        <p class="control">
+            <button class="button is-rounded" onclick=move(this,false)>
+                <span class="icon is-small">
+                    <i class="fas fa-chevron-right"></i>
+                </span>
+            </button>
+        </p>
+    </div>
+    <div class="card-view is-unselectable" id="<%= contentId %>">
+        <% cards.forEach(card => { %>
+        <%- include('card', {
+            data: card
+        }) %>
+        <% }) %>
+        <div class="fuck"></div>
+    </div>
+</div>

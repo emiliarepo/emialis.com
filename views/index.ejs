@@ -1,0 +1,96 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>jaqreven</title>
+    <meta name="description" content="jaqreven's personal website fuck yea">
+    <meta name="author" content="jaqreven">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+    <%- include('components/header', {
+        title: "jaqreven",
+        subtitle: "welcome to my site",
+        icon: "images/jaqreven/icon.png",
+        color: "is-primary"
+    }) %>
+
+    <section class="section has-bottom-shadow">
+        <div class="container">
+            <h1 class="title">
+                cool projects
+            </h1>
+            <h2 class="subtitle">
+                some totally rad stuff i've worked on
+            </h2>
+            <%- include('components/cardview', {
+                contentId: "projects",
+                cards: cards["projects"]
+            }) %>
+        </div>
+    </section>
+
+    <section class="section has-bottom-shadow">
+        <div class="container">
+            <h1 class="title">
+                my fursonas
+            </h1>
+            <h2 class="subtitle">
+                v cute - toyhou.se clone coming soon&trade;
+            </h2>
+            <%- include('components/cardview', {
+                contentId: "fursonas",
+                cards: cards["fursonas"]
+            }) %>
+        </div>
+    </section>
+
+    <section class="section has-bottom-shadow">
+        <div class="container">
+            <h1 class="title">
+                find me
+            </h1>
+            <h2 class="subtitle">
+                all them social medias
+            </h2>
+            <%- include('components/cardview', {
+                contentId: "contacts",
+                cards: cards["contacts"]
+            }) %>
+        </div>
+    </section>
+
+    <%- include('components/footer', {
+        color: "is-primary"
+    }) %>
+
+    <script>
+        function move(element, back) {
+            element.parentElement.parentElement.parentElement.querySelector('.card-view').scrollBy({
+                top: 0,
+                left: back ? -320 : 320,
+                behavior: 'smooth'
+            })
+        }
+        const elements = ["projects", "fursonas", "contacts"];
+        elements.forEach(elementId => {
+            const element = document.getElementById(elementId);
+            console.log(element.scrollWidth + " " + element.parentElement.scrollWidth)
+            if (element.scrollWidth <= element.parentElement.scrollWidth) {
+                element.parentElement.querySelector(".scroll-button-wrapper").classList.add("is-hidden");
+            }
+        })
+    </script>
+</body>
+
+</html>
