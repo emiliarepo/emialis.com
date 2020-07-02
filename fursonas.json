@@ -165,7 +165,7 @@
                         }
                     },
                     {
-                        "image": "/images/pilvi/winter.JPG",
+                        "image": "/images/pilvi/winter.jpg",
                         "position": "",
                         "artist": {
                             "name": "berrymeatart",
@@ -173,7 +173,7 @@
                         }
                     },
                     {
-                        "image": "/images/pilvi/icon2.PNG",
+                        "image": "/images/pilvi/icon2.png",
                         "position": "",
                         "artist": {
                             "name": "wallabytea",
@@ -263,7 +263,7 @@
                         }
                     },
                     {
-                        "image": "/images/siru/moon.PNG",
+                        "image": "/images/siru/moon.png",
                         "position": "top-side",
                         "artist": {
                             "name": "bluefox3456",
