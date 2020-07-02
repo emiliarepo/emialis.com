@@ -1,19 +1,27 @@
 {
     "projects": [
         {
-            "title": "jColour",
-            "description": "Discord bot for managing colour, custom hex and opt-in roles",
+            "title": "jcolour",
+            "description": "discord bot for managing colour, custom hex and opt-in roles",
             "image": "images/assets/jcolour.png",
             "square": false,
             "link": "https://jcolour.honkmaster.ninja",
             "newTab": true
         },
         {
-            "title": "Berrymeat MC",
-            "description": "Minecraft server network with a Discord login workflow and custom events",
+            "title": "berrymeat mc",
+            "description": "minecraft server network with survival and custom events",
             "image": "images/assets/berrymeat.png",
             "square": false,
             "link": "https://berrymeat.com",
+            "newTab": true
+        },
+        {
+            "title": "minecraft auth",
+            "description": "minecraft whitelisting through a discord integration",
+            "image": "images/assets/mcauth.png",
+            "square": false,
+            "link": "https://auth.mc.berrymeat.com",
             "newTab": true
         },
         {
