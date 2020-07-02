@@ -132,21 +132,30 @@ section .title,
 
 .card-image .image img,
 .modal-content {
-    border-radius: 8px 8px 0px 0px;
-}
-
-.modal-card {
-    border-radius: 0px 0px 8px 8px;
+    border-radius: 8px 8px 8px 8px;
 }
 
 .modal-content {
     background-color: var(--card-background);
-    max-height: 80vh;
+    width: auto;
+    /* max-height: 80vh; */
 }
 
-.modal-card-foot {
+#modal-image {
+    max-height: 80vh;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.artist-credit {
     background-color: var(--bg-color);
     color: var(--text-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px 10px;
+    border-radius: 0px 8px 0px 8px;
 }
 
 .card,
