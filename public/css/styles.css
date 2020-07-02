@@ -126,13 +126,13 @@ section .title,
 
 .card,
 .gallery-image,
-.gallery-image .image img {
+.gallery-image .image img,
+.modal-content {
     border-radius: 8px;
 }
 
-.card-image .image img,
-.modal-content {
-    border-radius: 8px 8px 8px 8px;
+.card-image .image img {
+    border-radius: 8px 8px 0px 0px;
 }
 
 .modal-content {
