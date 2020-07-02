@@ -107,7 +107,7 @@
     margin-top: 2rem;
 }
 
-.is-thumbnail img {
+.is-thumbnail img, .is-192x192 img {
     object-fit: cover;
     height: 100%;
 }

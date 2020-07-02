@@ -1,5 +1,4 @@
 const config = require('./config.json')
-const categories = require('./data.json')
 
 /*
  * Import the web server stuffs
@@ -10,6 +9,7 @@ const app = express();
 const port = config.port;
 const helmet = require('helmet');
 const morgan = require("morgan");
+const fs = require("fs");
 
 
 /*
@@ -32,8 +32,9 @@ app.use(middleware);
  */
 
 app.get('/', function (req, res) {
+    var data = JSON.parse(fs.readFileSync("./data.json"));
     return res.render('index.ejs', {
-        cards: categories
+        cards: data
     })
 })
 

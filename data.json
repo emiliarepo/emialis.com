@@ -36,7 +36,7 @@
     "fursonas": [
         {
             "title": "jaqreven",
-            "description": "deer - she/her",
+            "description": "deer · she/her",
             "image": "images/jaqreven/icon.png",
             "square": true,
             "link": "https://jaqreven.com",
@@ -44,7 +44,7 @@
         },
         {
             "title": "pilvi",
-            "description": "sheep - she/her",
+            "description": "sheep · she/her",
             "image": "images/pilvi/icon.png",
             "square": true,
             "link": "https://jaqreven.com",
@@ -52,7 +52,7 @@
         },
         {
             "title": "siru",
-            "description": "red panda - they/them",
+            "description": "red panda · they/them",
             "image": "images/siru/headshot.png",
             "square": true,
             "link": "https://jaqreven.com",
