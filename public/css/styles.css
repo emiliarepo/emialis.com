@@ -144,6 +144,11 @@ section .title,
     max-height: 80vh;
 }
 
+.modal-card-foot {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
 .card,
 .gallery-image {
     background-color: var(--card-background);
