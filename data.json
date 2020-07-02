@@ -85,6 +85,14 @@
             "newTab": true
         },
         {
+            "title": "github",
+            "description": "emiliarepo",
+            "image": "/images-compressed/assets/github.png",
+            "square": false,
+            "link": "https://github.com/emiliarepo",
+            "newTab": true
+        },
+        {
             "title": "youtube",
             "description": "jaqreven",
             "image": "/images-compressed/assets/youtube.png",
