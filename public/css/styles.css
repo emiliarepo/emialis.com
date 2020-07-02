@@ -1,6 +1,6 @@
 /* set light mode color as default value */
 :root {
-    --bg-color: #f5f5f5;
+    --bg-color: #f3f3f3;
     --card-background: #f7f7f7;
     --title-color: #363636;
     --text-color: #4a4a4a;
@@ -11,8 +11,8 @@
 /* switch to dark mode color */
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg-color: #1a1a1a;
-        --card-background: #0f0f0f;
+        --bg-color: #1d1d1d;
+        --card-background: #0e0e0e;
         --title-color: #f0f0f0;
         --text-color: #e4e4e4;
         --shadow-opacity: 0.5;
@@ -70,7 +70,34 @@
     min-width: 300px;
     max-width: 300px;
     margin: 10px;
+}
+
+.card, .gallery-image, .gallery-image .image img {
     border-radius: 8px;
+}
+
+.card-image .image img, .modal-content {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.modal-card {
+    border-radius: 0px 0px 8px 8px;
+}
+
+.modal-content {
+    background-color: var(--card-background);
+    max-height: 80vh;
+}
+
+.home-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0px 0px 0px 8px;
+    font-size: 1.3rem;
+}
+
+.card, .gallery-image {
     background-color: var(--card-background);
     box-shadow: 0px 25px 35px -25px rgba(0, 0, 0, var(--shadow-opacity));
 }
@@ -82,12 +109,8 @@
     transform: scale(1.02)
 }
 
-.card-view .grow:hover {
+.card-view .grow:hover, .gallery-image-parent .grow:hover {
     box-shadow: 0px 28px 28px -20px rgba(0, 0, 0, var(--shadow-opacity));
-}
-
-.card-image .image img {
-    border-radius: 8px 8px 0px 0px;
 }
 
 .scroll-button-wrapper {
@@ -130,4 +153,39 @@ section .title, .card-content .content .title {
 
 .footer .content p strong {
     color: white;
+}
+
+.right-side {
+    object-position: 100% 50%;
+}
+
+.left-side {
+    object-position: 0% 50%;
+}
+
+.top-side {
+    object-position: 50% 0%;
+}
+
+.bottom-side {
+    object-position: 50% 100%;
+}
+
+.is-pink {
+    background-color: #e99fd9;
+    color: white;
+}
+
+.is-purple {
+    background-color: #9248e6;
+    color: white;
+}
+
+.is-cyan {
+    background-color: #7ee2da;
+    color: white;
+}
+
+.is-white {
+    color: white !important;
 }

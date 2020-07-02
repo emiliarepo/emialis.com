@@ -1,0 +1,30 @@
+<div class="modal" id="modal">
+    <div class="modal-background" onclick="closeThumbnail()"></div>
+    <div class="modal-content">
+        <p class="image">
+            <img src="image" alt="" id="modal-image">
+        </p>
+    </div>
+    <div class="modal-card">
+        <footer class="modal-card-foot">
+            <p>by <strong><a id="modal-link" href="link" target="_blank">username</a></strong></p>
+        </footer>
+    </div>
+    <button class="modal-close is-large" aria-label="close" onclick="closeThumbnail()"></button>
+</div>
+
+<script>
+
+    function openThumbnail(imageUrl, name, artistUrl) {
+        document.getElementById("modal").classList.add("is-active");
+        document.getElementById("modal-image").src = imageUrl;
+        const link = document.getElementById("modal-link");
+        link.textContent = name;
+        link.href = artistUrl;
+    }
+
+    function closeThumbnail() {
+        document.getElementById("modal").classList.remove("is-active");
+    }
+
+</script>

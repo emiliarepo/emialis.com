@@ -32,11 +32,28 @@ app.use(middleware);
  */
 
 app.get('/', function (req, res) {
-    var data = JSON.parse(fs.readFileSync("./data.json"));
+    const data = JSON.parse(fs.readFileSync("./data.json"));
     return res.render('index.ejs', {
         cards: data
     })
 })
+
+app.get('/fursona/:name', function (req, res) {
+    const data = JSON.parse(fs.readFileSync("./fursonas.json"));
+    const fursonaData = data[req.params.name];
+    if (fursonaData) {
+        return res.render('fursona.ejs', {
+            fursona: fursonaData
+        })
+    } else {
+        return res.status(404).send("Unknown name")
+    }
+})
+
+app.get('/fursona', function (req, res) {
+    return res.redirect("/#fursona")
+})
+
 
 // Error Handling
 

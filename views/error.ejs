@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
 
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
@@ -21,7 +21,7 @@
     <%- include('components/header', {
         title: `error ${errorNum}: ${errorMsg}`,
         subtitle: description,
-        icon: "images/assets/error.jpg",
+        icon: "/images/assets/error.jpg",
         color: "is-danger"
     }) %>
 
@@ -35,7 +35,7 @@
                 cards: [{
                     "title": "twitter",
                     "description": "jaqreven",
-                    "image": "images/assets/twitter.png",
+                    "image": "/images/assets/twitter.png",
                     "square": false,
                     "link": "https://twitter.com/jaqreven",
                     "newTab": true
@@ -43,7 +43,7 @@
                 {
                     "title": "jaqreven.com",
                     "description": "back home",
-                    "image": "images/assets/jaqreven.png",
+                    "image": "/images/assets/jaqreven.png",
                     "square": false,
                     "link": "https://jaqreven.com",
                     "newTab": true

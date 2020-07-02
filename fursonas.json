@@ -1,0 +1,301 @@
+{
+    "jaqreven": {
+        "color": "is-purple",
+        "name": "jaq / jaqreven",
+        "bio": "she/her · deer",
+        "icon": "/images/jaqreven/icon.png",
+        "galleries": [
+            {
+                "title": "reference sheet",
+                "images": [
+                    {
+                        "image": "/images/jaqreven/ref.png",
+                        "position": "",
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "main gallery",
+                "images": [
+                    {
+                        "image": "/images/jaqreven/icon.png",
+                        "position": "",
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
+                        "image": "/images/jaqreven/vixndwnq-april2020.png",
+                        "position": "",
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "old design",
+                "images": [
+                    {
+                        "image": "/images/jaqreven/old/summer.jpg",
+                        "position": "top-side",
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
+                        "image": "/images/jaqreven/old/pride-banner.png",
+                        "position": "right-side",
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
+                        "image": "/images/jaqreven/old/opossum.png",
+                        "position": "",
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
+                        "image": "/images/jaqreven/old/speedpaint.png",
+                        "position": "top-side",
+                        "artist": {
+                            "name": "kiwicabbit",
+                            "url": "https://twitter.com/kiwicabbit"
+                        }
+                    },
+                    {
+                        "image": "/images/jaqreven/old/yum.png",
+                        "position": "top-side",
+                        "artist": {
+                            "name": "crittervalley",
+                            "url": "https://twitter.com/crittervalley"
+                        }
+                    },
+                    {
+                        "image": "/images/jaqreven/old/spooky.png",
+                        "position": "right-side",
+                        "artist": {
+                            "name": "foxinks",
+                            "url": "https://twitter.com/foxinks"
+                        }
+                    },
+                    {
+                        "image": "/images/jaqreven/old/fall.png",
+                        "position": "",
+                        "artist": {
+                            "name": "pasteldawg",
+                            "url": "https://twitter.com/pasteldawg"
+                        }
+                    },
+                    {
+                        "image": "/images/jaqreven/old/portrait.png",
+                        "position": "",
+                        "artist": {
+                            "name": "temero",
+                            "url": "https://furaffinity.net/user/temero"
+                        }
+                    },
+                    {
+                        "image": "/images/jaqreven/old/icon.png",
+                        "position": "",
+                        "artist": {
+                            "name": "cheremtasy",
+                            "url": "https://twitter.com/cheremtasy"
+                        }
+                    },
+                    {
+                        "image": "/images/jaqreven/old/lake.png",
+                        "position": "",
+                        "artist": {
+                            "name": "emerarudoshika",
+                            "url": "https://furaffinity.net/user/emerarudoshika"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "pilvi": {
+        "color": "is-pink",
+        "name": "pilvi",
+        "bio": "she/her · sheep",
+        "icon": "/images/pilvi/icon.png",
+        "galleries": [
+            {
+                "title": "reference sheet",
+                "images": [
+                    {
+                        "image": "/images/pilvi/ref.png",
+                        "position": "top-side",
+                        "artist": {
+                            "name": "heartspark",
+                            "url": "https://twitter.com/_heartspark"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "main gallery",
+                "images": [
+                    {
+                        "image": "/images/pilvi/icon.png",
+                        "position": "",
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
+                        "image": "/images/pilvi/headshot.png",
+                        "position": "",
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
+                        "image": "/images/pilvi/winter.jpg",
+                        "position": "",
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
+                        "image": "/images/pilvi/icon2.png",
+                        "position": "",
+                        "artist": {
+                            "name": "wallabytea",
+                            "url": "https://twitter.com/wallabytea"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "siru": {
+        "color": "is-cyan",
+        "name": "siru",
+        "bio": "they/them · red panda",
+        "icon": "/images/siru/headshot.png",
+        "galleries": [
+            {
+                "title": "reference sheet",
+                "images": [
+                    {
+                        "image": "/images/siru/ref.png",
+                        "position": "left-side",
+                        "artist": {
+                            "name": "coko",
+                            "url": "https://furaffinity.net/user/coko"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "main gallery",
+                "images": [
+                    {
+                        "image": "/images/siru/space.png",
+                        "position": "top-side",
+                        "artist": {
+                            "name": "chibity",
+                            "url": "https://twitter.com/Runty_Ink"
+                        }
+                    },
+                    {
+                        "image": "/images/siru/squish.png",
+                        "position": "",
+                        "artist": {
+                            "name": "samplas",
+                            "url": "https://www.furaffinity.net/user/samplas"
+                        }
+                    },
+                    {
+                        "image": "/images/siru/pride.png",
+                        "position": "",
+                        "artist": {
+                            "name": "reptifriend",
+                            "url": "https://www.furaffinity.net/user/reptifriend"
+                        }
+                    },
+                    {
+                        "image": "/images/siru/code.png",
+                        "position": "top-side",
+                        "artist": {
+                            "name": "aloeramune",
+                            "url": "https://twitter.com/aloeramune"
+                        }
+                    },
+                    {
+                        "image": "/images/siru/badge.png",
+                        "position": "",
+                        "artist": {
+                            "name": "bouncybasil",
+                            "url": "https://twitter.com/bouncybasil"
+                        }
+                    },
+                    {
+                        "image": "/images/siru/headshot.png",
+                        "position": "",
+                        "artist": {
+                            "name": "coko",
+                            "url": "https://furaffinity.net/user/coko"
+                        }
+                    },
+                    {
+                        "image": "/images/siru/icon.png",
+                        "position": "top-side",
+                        "artist": {
+                            "name": "xionatia",
+                            "url": "https://www.furaffinity.net/user/xionatia/"
+                        }
+                    },
+                    {
+                        "image": "/images/siru/moon.png",
+                        "position": "top-side",
+                        "artist": {
+                            "name": "bluefox3456",
+                            "url": "https://www.furaffinity.net/user/bluefox3465/"
+                        }
+                    },
+                    {
+                        "image": "/images/siru/poof.png",
+                        "position": "",
+                        "artist": {
+                            "name": "bombpup",
+                            "url": "https://twitter.com/bombpup"
+                        }
+                    },
+                    {
+                        "image": "/images/siru/headshot2.png",
+                        "position": "",
+                        "artist": {
+                            "name": "delgrotto",
+                            "url": "https://furaffinity.net/user/delgrotto"
+                        }
+                    },
+                    {
+                        "image": "/images/siru/hello.png",
+                        "position": "top-side",
+                        "artist": {
+                            "name": "ivnousky",
+                            "url": "https://furaffinity.net/user/ivnousky"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+<section class="section has-bottom-shadow">
+    <div class="container">
+        <h1 class="title is-3">
+            <%= gallery.title %>
+        </h1>
+        <div class="columns is-multiline is-mobile">
+            <% gallery.images.forEach( image => { %>
+            <%- include('image', {
+                data: image
+            }) %>
+            <% }) %>
+        </div>
+    </div>
+</section>
