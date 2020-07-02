@@ -40,7 +40,6 @@ app.get('/', function (req, res) {
 // Error Handling
 
 app.use(function (req, res) { // 404
-    UFCKpekgjwg();
     return res.status(404).render('error.ejs', {
         errorNum: 404,
         errorMsg: "file not found.",
