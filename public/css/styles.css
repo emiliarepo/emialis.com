@@ -1,4 +1,9 @@
-/* set light mode color as default value */
+/*
+ *
+ * Dark & light mode variables
+ *
+ */
+
 :root {
     --bg-color: #f3f3f3;
     --card-background: #f7f7f7;
@@ -8,7 +13,6 @@
     --lighter-shadow-opacity: 0.25;
 }
 
-/* switch to dark mode color */
 @media (prefers-color-scheme: dark) {
     :root {
         --bg-color: #1d1d1d;
@@ -20,10 +24,40 @@
     }
 }
 
-.is-192x192 {
-    height: 192px;
-    width: 192px;
+/*
+ *
+ * Colours
+ *
+ */
+
+body {
+    background-color: var(--bg-color);
 }
+
+section .title,
+.card-content .content .title {
+    color: var(--title-color);
+}
+
+.section .subtitle,
+.section p,
+.card-content .content {
+    color: var(--text-color);
+}
+
+.footer .content p strong {
+    color: white;
+}
+
+.is-white {
+    color: white !important;
+}
+
+/*
+ *
+ * Shadows
+ *
+ */
 
 .object .has-shadow {
     box-shadow: 0px 30px 45px -15px rgba(0, 0, 0, var(--lighter-shadow-opacity));
@@ -34,8 +68,19 @@
 }
 
 .has-strong-bottom-shadow {
-    box-shadow: inset 0px -25px 45px -30px rgba(0, 0, 0, var(--shadow-opacity));   
+    box-shadow: inset 0px -25px 45px -30px rgba(0, 0, 0, var(--shadow-opacity));
 }
+
+.is-192x192 {
+    height: 192px;
+    width: 192px;
+}
+
+/*
+ *
+ * Scrollable horizontal cards
+ *
+ */
 
 .card-view {
     min-width: 100%;
@@ -53,6 +98,7 @@
     display: none;
 }
 
+/* hacky way to add padding to the end */
 .card-view> :last-child {
     min-width: 20px !important;
 }
@@ -72,11 +118,20 @@
     margin: 10px;
 }
 
-.card, .gallery-image, .gallery-image .image img {
+/*
+ *
+ * Rounded corners etc.
+ *
+ */
+
+.card,
+.gallery-image,
+.gallery-image .image img {
     border-radius: 8px;
 }
 
-.card-image .image img, .modal-content {
+.card-image .image img,
+.modal-content {
     border-radius: 8px 8px 0px 0px;
 }
 
@@ -89,35 +144,51 @@
     max-height: 80vh;
 }
 
-.home-button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-radius: 0px 0px 0px 8px;
-    font-size: 1.3rem;
-}
-
-.card, .gallery-image {
+.card,
+.gallery-image {
     background-color: var(--card-background);
     box-shadow: 0px 25px 35px -25px rgba(0, 0, 0, var(--shadow-opacity));
 }
 
+/*
+ *
+ * epic animation
+ *
+ */
+
 .grow {
     transition: all .2s ease-in-out;
 }
+
 .grow:hover {
     transform: scale(1.02)
 }
 
-.card-view .grow:hover, .gallery-image-parent .grow:hover {
+.card-view .grow:hover,
+.gallery-image-parent .grow:hover {
     box-shadow: 0px 28px 28px -20px rgba(0, 0, 0, var(--shadow-opacity));
 }
+
+/*
+ *
+ * Buttons
+ * misc stuff
+ *
+ */
 
 .scroll-button-wrapper {
     left: 15px;
     position: absolute;
     bottom: 7px;
     z-index: 2;
+}
+
+.home-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0px 0px 0px 8px;
+    font-size: 1.3rem;
 }
 
 .card a {
@@ -130,29 +201,21 @@
     margin-top: 2rem;
 }
 
-.is-thumbnail img, .is-192x192 img {
-    object-fit: cover;
-    height: 100%;
-}
-
-body {
-    background-color: var(--bg-color);
-}
-
-section .title, .card-content .content .title {
-    color: var(--title-color);
-}
-
-.section .subtitle, .section p, .card-content .content {
-    color: var(--text-color);
-}
-
 .min-height {
     min-height: 80vh;
 }
 
-.footer .content p strong {
-    color: white;
+
+/*
+ *
+ * Image align
+ *
+ */
+
+.is-thumbnail img,
+.is-192x192 img {
+    object-fit: cover;
+    height: 100%;
 }
 
 .right-side {
@@ -171,14 +234,29 @@ section .title, .card-content .content .title {
     object-position: 50% 100%;
 }
 
+/*
+ *
+ * Header & footer hero backgrounds
+ *
+ */
+
 .is-pink {
     background-color: #e99fd9;
     color: white;
 }
 
+.is-pink-gradient {
+    background-image: linear-gradient(141deg, #e494b9 0, #e99fd9 71%, #e29df0 100%)
+}
+
+
 .is-purple {
     background-color: #9248e6;
     color: white;
+}
+
+.is-purple-gradient {
+    background-image: linear-gradient(141deg, #7050e4 0, #9248e6 71%, #a748e6 100%)
 }
 
 .is-cyan {
@@ -186,6 +264,6 @@ section .title, .card-content .content .title {
     color: white;
 }
 
-.is-white {
-    color: white !important;
+.is-cyan-gradient {
+    background-image: linear-gradient(141deg, #7ec2e2 0, #7ee2da 71%, #7ee2bc 100%)
 }
