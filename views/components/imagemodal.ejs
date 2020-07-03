@@ -23,6 +23,10 @@
 
     function closeThumbnail() {
         document.getElementById("modal").classList.remove("is-active");
+        document.getElementById("modal-image").src = "";
+        const link = document.getElementById("modal-link");
+        link.textContent = "";
+        link.href = "";
     }
 
 </script>
