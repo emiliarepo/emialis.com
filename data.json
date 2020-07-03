@@ -1,4 +1,30 @@
 {
+    "fursonas": [
+        {
+            "title": "jaqreven",
+            "description": "deer · she/her",
+            "image": "/images-compressed/jaqreven/icon.png",
+            "square": true,
+            "link": "/fursona/jaqreven",
+            "newTab": false
+        },
+        {
+            "title": "pilvi",
+            "description": "sheep · she/her",
+            "image": "/images-compressed/pilvi/icon.png",
+            "square": true,
+            "link": "/fursona/pilvi",
+            "newTab": false
+        },
+        {
+            "title": "siru",
+            "description": "red panda · they/them",
+            "image": "/images-compressed/siru/headshot.png",
+            "square": true,
+            "link": "/fursona/siru",
+            "newTab": false
+        }
+    ],
     "projects": [
         {
             "title": "jcolour",
@@ -31,32 +57,6 @@
             "square": false,
             "link": "https://jaqreven.com",
             "newTab": true
-        }
-    ],
-    "fursonas": [
-        {
-            "title": "jaqreven",
-            "description": "deer · she/her",
-            "image": "/images-compressed/jaqreven/icon.png",
-            "square": true,
-            "link": "/fursona/jaqreven",
-            "newTab": false
-        },
-        {
-            "title": "pilvi",
-            "description": "sheep · she/her",
-            "image": "/images-compressed/pilvi/icon.png",
-            "square": true,
-            "link": "/fursona/pilvi",
-            "newTab": false
-        },
-        {
-            "title": "siru",
-            "description": "red panda · they/them",
-            "image": "/images-compressed/siru/headshot.png",
-            "square": true,
-            "link": "/fursona/siru",
-            "newTab": false
         }
     ],
     "contacts": [

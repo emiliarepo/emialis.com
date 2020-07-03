@@ -1,4 +1,4 @@
-<div class="modal" id="modal">
+<div class="modal modal-fx-fadeInScale" id="modal">
     <div class="modal-background" onclick="closeThumbnail()"></div>
     <div class="modal-content">
         <p class="image">
@@ -14,11 +14,11 @@
 <script>
 
     function openThumbnail(imageUrl, name, artistUrl) {
-        document.getElementById("modal").classList.add("is-active");
         document.getElementById("modal-image").src = imageUrl;
         const link = document.getElementById("modal-link");
         link.textContent = name;
         link.href = artistUrl;
+        document.getElementById("modal").classList.add("is-active");
     }
 
     function closeThumbnail() {

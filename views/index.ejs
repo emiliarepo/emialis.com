@@ -25,21 +25,6 @@
         color: "is-primary"
     }) %>
 
-    <section class="section has-bottom-shadow">
-        <div class="container">
-            <h1 class="title">
-                cool projects
-            </h1>
-            <h2 class="subtitle">
-                some totally rad stuff i've worked on
-            </h2>
-            <%- include('components/cardview', {
-                contentId: "projects",
-                cards: cards["projects"]
-            }) %>
-        </div>
-    </section>
-
     <section class="section has-bottom-shadow" id="fursona">
         <div class="container">
             <h1 class="title">
@@ -51,6 +36,21 @@
             <%- include('components/cardview', {
                 contentId: "fursonas",
                 cards: cards["fursonas"]
+            }) %>
+        </div>
+    </section>
+
+    <section class="section has-bottom-shadow">
+        <div class="container">
+            <h1 class="title">
+                cool projects
+            </h1>
+            <h2 class="subtitle">
+                some totally rad stuff i've worked on
+            </h2>
+            <%- include('components/cardview', {
+                contentId: "projects",
+                cards: cards["projects"]
             }) %>
         </div>
     </section>

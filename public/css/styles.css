@@ -9,7 +9,7 @@
     --card-background: #fafafa;
     --title-color: #363636;
     --text-color: #4a4a4a;
-    --shadow-opacity: 0.25;
+    --shadow-opacity: 0.35;
     --lighter-shadow-opacity: 0.25;
 }
 
@@ -19,8 +19,8 @@
         --card-background: #0e0e0e;
         --title-color: #f0f0f0;
         --text-color: #e4e4e4;
-        --shadow-opacity: 0.5;
-        --lighter-shadow-opacity: 0.35;
+        --shadow-opacity: 0.65;
+        --lighter-shadow-opacity: 0.50;
     }
 }
 
