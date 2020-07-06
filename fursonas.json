@@ -297,5 +297,31 @@
                 ]
             }
         ]
+    },
+    "marja": {
+        "color": "is-red is-red-gradient",
+        "name": "marja",
+        "bio": "they/them · a",
+        "icon": "/images/marja/character.png",
+        "galleries": [
+            {
+                "title": "reference sheet",
+                "images": [
+                    {
+                        "image": "/images/marja/character.png",
+                        "position": "",
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "main gallery",
+                "images": [
+                ]
+            }
+        ]
     }
 }

@@ -34,7 +34,7 @@ app.use(middleware);
 app.get('/', function (req, res) {
     const data = JSON.parse(fs.readFileSync("./data.json"));
     return res.render('index.ejs', {
-        cards: data
+        data: data
     })
 })
 
@@ -51,7 +51,7 @@ app.get('/fursona/:name', function (req, res) {
 })
 
 app.get('/fursona', function (req, res) {
-    return res.redirect("/#fursona")
+    return res.redirect("/#fursonas")
 })
 
 

@@ -25,50 +25,22 @@
         color: "is-primary"
     }) %>
 
-    <section class="section has-bottom-shadow" id="fursona">
-        <div class="container">
-            <h1 class="title">
-                my fursonas & ocs
-            </h1>
-            <h2 class="subtitle">
-                v cute uwu 💖
-            </h2>
-            <%- include('components/cardview', {
-                contentId: "fursonas",
-                cards: cards["fursonas"]
-            }) %>
-        </div>
-    </section>
-
-    <section class="section has-bottom-shadow">
-        <div class="container">
-            <h1 class="title">
-                cool projects
-            </h1>
-            <h2 class="subtitle">
-                some totally rad stuff i've worked on
-            </h2>
-            <%- include('components/cardview', {
-                contentId: "projects",
-                cards: cards["projects"]
-            }) %>
-        </div>
-    </section>
-
-    <section class="section has-bottom-shadow">
-        <div class="container">
-            <h1 class="title">
-                find me
-            </h1>
-            <h2 class="subtitle">
-                all them social medias
-            </h2>
-            <%- include('components/cardview', {
-                contentId: "contacts",
-                cards: cards["contacts"]
-            }) %>
-        </div>
-    </section>
+    <% Object.keys(data).forEach(key => { %>
+        <section class="section has-bottom-shadow" id=<%= key %>>
+            <div class="container">
+                <h1 class="title">
+                    <%= data[key].title %>
+                </h1>
+                <h2 class="subtitle">
+                    <%= data[key].subtitle %>
+                </h2>
+                <%- include('components/cardview', {
+                    contentId: key + "-cards",
+                    cards: data[key].cards
+                }) %>
+            </div>
+        </section>
+    <% }) %>
 
     <%- include('components/footer', {
         color: "is-primary"
@@ -82,7 +54,7 @@
                 behavior: 'smooth'
             })
         }
-        const elements = ["projects", "fursonas", "contacts"];
+        const elements = ["projects-cards", "fursonas-cards", "contacts-cards"];
         elements.forEach(elementId => {
             const element = document.getElementById(elementId);
             console.log(element.scrollWidth + " " + element.parentElement.scrollWidth)

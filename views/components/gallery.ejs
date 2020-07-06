@@ -5,10 +5,11 @@
         </h1>
         <div class="columns is-multiline is-mobile">
             <% gallery.images.forEach( image => { %>
-            <%- include('image', {
-                data: image
-            }) %>
+                <%- include('image', {
+                    data: image
+                }) %>
             <% }) %>
         </div>
     </div>
 </section>
+
