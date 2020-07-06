@@ -3,7 +3,7 @@
         "color": "is-purple is-purple-gradient",
         "name": "jaq / jaqreven",
         "bio": "she/her · deer",
-        "icon": "/images/jaqreven/icon.png",
+        "icon": "/images-compressed/jaqreven/icon.png",
         "galleries": [
             {
                 "title": "reference sheet",
@@ -130,7 +130,7 @@
         "color": "is-pink is-pink-gradient",
         "name": "pilvi",
         "bio": "she/her · sheep",
-        "icon": "/images/pilvi/icon.png",
+        "icon": "/images-compressed/pilvi/icon.png",
         "galleries": [
             {
                 "title": "reference sheet",
@@ -184,11 +184,37 @@
             }
         ]
     },
+    "marja": {
+        "color": "is-red is-red-gradient",
+        "name": "marja",
+        "bio": "they/them · a",
+        "icon": "/images-compressed/marja/character.png",
+        "galleries": [
+            {
+                "title": "reference sheet",
+                "images": [
+                    {
+                        "image": "/images/marja/character.png",
+                        "position": "",
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "main gallery",
+                "images": [
+                ]
+            }
+        ]
+    },
     "siru": {
         "color": "is-cyan is-cyan-gradient",
         "name": "siru",
         "bio": "they/them · red panda",
-        "icon": "/images/siru/headshot.png",
+        "icon": "/images-compressed/siru/headshot.png",
         "galleries": [
             {
                 "title": "reference sheet",
@@ -294,32 +320,6 @@
                             "url": "https://furaffinity.net/user/ivnousky"
                         }
                     }
-                ]
-            }
-        ]
-    },
-    "marja": {
-        "color": "is-red is-red-gradient",
-        "name": "marja",
-        "bio": "they/them · a",
-        "icon": "/images/marja/character.png",
-        "galleries": [
-            {
-                "title": "reference sheet",
-                "images": [
-                    {
-                        "image": "/images/marja/character.png",
-                        "position": "",
-                        "artist": {
-                            "name": "berrymeatart",
-                            "url": "https://twitter.com/berrymeatart"
-                        }
-                    }
-                ]
-            },
-            {
-                "title": "main gallery",
-                "images": [
                 ]
             }
         ]
