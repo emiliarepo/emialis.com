@@ -1,7 +1,7 @@
 <div class="column is-full-mobile is-one-third-tablet is-3-desktop gallery-image-parent">
         <div class="image grow gallery-image" onclick="openThumbnail('<%= data.image %>', '<%= data.artist.name %>', '<%= data.artist.url %>')">
             <figure class="image is-fullwidth is-4by3 is-thumbnail">
-                <img class="<%= data.position %>" src="<%= data.image.replace("images", "images-compressed") %>" alt="Image">
+                <img class="<%= data.position %>" src="<%= data.image + "?dim=420" %>" alt="Image">
             </figure>
         </div>
 </div>

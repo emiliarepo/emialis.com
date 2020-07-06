@@ -3,7 +3,7 @@
         "color": "is-purple is-purple-gradient",
         "name": "jaq / jaqreven",
         "bio": "she/her · deer",
-        "icon": "/images-compressed/jaqreven/icon.png",
+        "icon": "/images/jaqreven/icon.png?dim=420",
         "galleries": [
             {
                 "title": "reference sheet",
@@ -130,7 +130,7 @@
         "color": "is-pink is-pink-gradient",
         "name": "pilvi",
         "bio": "she/her · sheep",
-        "icon": "/images-compressed/pilvi/icon.png",
+        "icon": "/images/pilvi/icon.png?dim=420",
         "galleries": [
             {
                 "title": "reference sheet",
@@ -188,7 +188,7 @@
         "color": "is-red is-red-gradient",
         "name": "marja",
         "bio": "they/them · a",
-        "icon": "/images-compressed/marja/character.png",
+        "icon": "/images/marja/character.png?dim=420",
         "galleries": [
             {
                 "title": "reference sheet",
@@ -214,7 +214,7 @@
         "color": "is-cyan is-cyan-gradient",
         "name": "siru",
         "bio": "they/them · red panda",
-        "icon": "/images-compressed/siru/headshot.png",
+        "icon": "/images/siru/headshot.png?dim=420",
         "galleries": [
             {
                 "title": "reference sheet",

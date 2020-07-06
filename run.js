@@ -10,6 +10,7 @@ const port = config.port;
 const helmet = require('helmet');
 const morgan = require("morgan");
 const fs = require("fs");
+const qt = require("quickthumb")
 
 
 /*
@@ -21,11 +22,14 @@ const middleware = [
         frameguard: false
     }),
     morgan('tiny'), // Logs request data to console
-    express.static('public'), // public dir can be accessed
+    qt.static(__dirname + '/public', {
+        type: "resize"
+    }) // low res thumbnails + static files
 ]
 
 app.set('view engine', 'ejs'); // ejs for server side js templating
 app.use(middleware);
+console.log(__dirname)
 
 /*
  * Create the Routes

@@ -5,7 +5,7 @@
         "cards": [{
                 "title": "jaqreven",
                 "description": "deer · she/her",
-                "image": "/images-compressed/jaqreven/icon.png",
+                "image": "/images/jaqreven/icon.png?dim=420",
                 "square": true,
                 "link": "/fursona/jaqreven",
                 "newTab": false
@@ -13,7 +13,7 @@
             {
                 "title": "pilvi",
                 "description": "sheep · she/her",
-                "image": "/images-compressed/pilvi/icon.png",
+                "image": "/images/pilvi/icon.png?dim=420",
                 "square": true,
                 "link": "/fursona/pilvi",
                 "newTab": false
@@ -21,7 +21,7 @@
             {
                 "title": "marja",
                 "description": "a · they/them",
-                "image": "/images-compressed/marja/character.png",
+                "image": "/images/marja/character.png?dim=420",
                 "square": true,
                 "link": "/fursona/marja",
                 "newTab": false
@@ -29,7 +29,7 @@
             {
                 "title": "siru",
                 "description": "red panda · they/them",
-                "image": "/images-compressed/siru/headshot.png",
+                "image": "/images/siru/headshot.png?dim=420",
                 "square": true,
                 "link": "/fursona/siru",
                 "newTab": false
@@ -42,7 +42,7 @@
         "cards": [{
                 "title": "jcolour",
                 "description": "discord bot for managing colour, custom hex and opt-in roles",
-                "image": "/images-compressed/assets/jcolour.png",
+                "image": "/images/assets/jcolour.png?dim=420",
                 "square": false,
                 "link": "https://jcolour.honkmaster.ninja",
                 "newTab": true
@@ -50,7 +50,7 @@
             {
                 "title": "berrymeat mc",
                 "description": "minecraft server network with survival and custom events",
-                "image": "/images-compressed/assets/berrymeat.png",
+                "image": "/images/assets/berrymeat.png?dim=420",
                 "square": false,
                 "link": "https://berrymeat.com",
                 "newTab": true
@@ -58,7 +58,7 @@
             {
                 "title": "minecraft auth",
                 "description": "minecraft whitelisting through a discord integration",
-                "image": "/images-compressed/assets/mcauth.png",
+                "image": "/images/assets/mcauth.png?dim=420",
                 "square": false,
                 "link": "https://auth.mc.berrymeat.com",
                 "newTab": true
@@ -66,7 +66,7 @@
             {
                 "title": "jaqreven.com",
                 "description": "what",
-                "image": "/images-compressed/assets/jaqreven.png",
+                "image": "/images/assets/jaqreven.png?dim=420",
                 "square": false,
                 "link": "https://jaqreven.com",
                 "newTab": true
@@ -79,7 +79,7 @@
         "cards": [{
                 "title": "telegram",
                 "description": "@jaqreven",
-                "image": "/images-compressed/assets/telegram.png",
+                "image": "/images/assets/telegram.png?dim=420",
                 "square": false,
                 "link": "https://t.me/jaqreven",
                 "newTab": true
@@ -87,7 +87,7 @@
             {
                 "title": "discord",
                 "description": "jaqreven#9891",
-                "image": "/images-compressed/assets/discord.png",
+                "image": "/images/assets/discord.png?dim=420",
                 "square": false,
                 "link": "https://discord.com",
                 "newTab": true
@@ -95,7 +95,7 @@
             {
                 "title": "twitter",
                 "description": "jaqreven",
-                "image": "/images-compressed/assets/twitter.png",
+                "image": "/images/assets/twitter.png?dim=420",
                 "square": false,
                 "link": "https://twitter.com/jaqreven",
                 "newTab": true
@@ -103,7 +103,7 @@
             {
                 "title": "github",
                 "description": "emiliarepo",
-                "image": "/images-compressed/assets/github.png",
+                "image": "/images/assets/github.png?dim=420",
                 "square": false,
                 "link": "https://github.com/emiliarepo",
                 "newTab": true
@@ -111,7 +111,7 @@
             {
                 "title": "youtube",
                 "description": "jaqreven",
-                "image": "/images-compressed/assets/youtube.png",
+                "image": "/images/assets/youtube.png?dim=420",
                 "square": false,
                 "link": "https://www.youtube.com/channel/UCCX-rVCiUYTKKtfBU1jdacg",
                 "newTab": true
@@ -119,7 +119,7 @@
             {
                 "title": "reddit",
                 "description": "jaqreven",
-                "image": "/images-compressed/assets/reddit.png",
+                "image": "/images/assets/reddit.png?dim=420",
                 "square": false,
                 "link": "https://reddit.com/u/jaqreven",
                 "newTab": true
