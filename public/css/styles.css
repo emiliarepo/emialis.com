@@ -177,7 +177,7 @@ section .title,
 }
 
 .grow:hover {
-    transform: scale(1.02)
+    transform: scale(1.015)
 }
 
 .card-view .grow:hover,

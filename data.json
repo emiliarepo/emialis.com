@@ -1,13 +1,13 @@
 {
-    "fursonas": {
+    "characters": {
         "title": "fursonas & ocs",
         "subtitle": "v cute uwu 💖",
         "cards": [{
-                "title": "jaqreven",
+                "title": "aurora",
                 "description": "deer · she/her",
-                "image": "/images/jaqreven/icon.png?dim=420",
+                "image": "/images/aurora/icon.png?dim=420",
                 "square": true,
-                "link": "/fursona/jaqreven",
+                "link": "/character/aurora",
                 "newTab": false
             },
             {
@@ -15,23 +15,15 @@
                 "description": "sheep · she/her",
                 "image": "/images/pilvi/icon.png?dim=420",
                 "square": true,
-                "link": "/fursona/pilvi",
+                "link": "/character/pilvi",
                 "newTab": false
             },
             {
                 "title": "marja",
-                "description": "a · they/them",
+                "description": "fairy fox · they/them",
                 "image": "/images/marja/character.png?dim=420",
                 "square": true,
-                "link": "/fursona/marja",
-                "newTab": false
-            },
-            {
-                "title": "siru",
-                "description": "red panda · they/them",
-                "image": "/images/siru/headshot.png?dim=420",
-                "square": true,
-                "link": "/fursona/siru",
+                "link": "/character/marja",
                 "newTab": false
             }
         ]

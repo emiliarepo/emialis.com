@@ -1,15 +1,15 @@
 {
-    "jaqreven": {
+    "aurora": {
         "color": "is-purple is-purple-gradient",
-        "name": "jaq / jaqreven",
-        "bio": "she/her · deer",
-        "icon": "/images/jaqreven/icon.png?dim=420",
+        "name": "aurora",
+        "bio": "deer · she/her",
+        "icon": "/images/aurora/icon.png?dim=420",
         "galleries": [
             {
                 "title": "reference sheet",
                 "images": [
                     {
-                        "image": "/images/jaqreven/ref.png",
+                        "image": "/images/aurora/ref.png",
                         "position": "",
                         "artist": {
                             "name": "berrymeatart",
@@ -22,7 +22,7 @@
                 "title": "main gallery",
                 "images": [
                     {
-                        "image": "/images/jaqreven/icon.png",
+                        "image": "/images/aurora/icon.png",
                         "position": "",
                         "artist": {
                             "name": "berrymeatart",
@@ -30,7 +30,7 @@
                         }
                     },
                     {
-                        "image": "/images/jaqreven/vixndwnq-april2020.png",
+                        "image": "/images/aurora/vixndwnq-april2020.png",
                         "position": "",
                         "artist": {
                             "name": "berrymeatart",
@@ -43,7 +43,7 @@
                 "title": "old design",
                 "images": [
                     {
-                        "image": "/images/jaqreven/old/summer.jpg",
+                        "image": "/images/aurora/old/summer.jpg",
                         "position": "top-side",
                         "artist": {
                             "name": "berrymeatart",
@@ -51,7 +51,7 @@
                         }
                     },
                     {
-                        "image": "/images/jaqreven/old/pride-banner.png",
+                        "image": "/images/aurora/old/pride-banner.png",
                         "position": "right-side",
                         "artist": {
                             "name": "berrymeatart",
@@ -59,7 +59,7 @@
                         }
                     },
                     {
-                        "image": "/images/jaqreven/old/opossum.png",
+                        "image": "/images/aurora/old/opossum.png",
                         "position": "",
                         "artist": {
                             "name": "berrymeatart",
@@ -67,7 +67,7 @@
                         }
                     },
                     {
-                        "image": "/images/jaqreven/old/speedpaint.png",
+                        "image": "/images/aurora/old/speedpaint.png",
                         "position": "top-side",
                         "artist": {
                             "name": "kiwicabbit",
@@ -75,7 +75,7 @@
                         }
                     },
                     {
-                        "image": "/images/jaqreven/old/yum.png",
+                        "image": "/images/aurora/old/yum.png",
                         "position": "top-side",
                         "artist": {
                             "name": "crittervalley",
@@ -83,7 +83,7 @@
                         }
                     },
                     {
-                        "image": "/images/jaqreven/old/spooky.png",
+                        "image": "/images/aurora/old/spooky.png",
                         "position": "right-side",
                         "artist": {
                             "name": "foxinks",
@@ -91,7 +91,7 @@
                         }
                     },
                     {
-                        "image": "/images/jaqreven/old/fall.png",
+                        "image": "/images/aurora/old/fall.png",
                         "position": "",
                         "artist": {
                             "name": "pasteldawg",
@@ -99,7 +99,7 @@
                         }
                     },
                     {
-                        "image": "/images/jaqreven/old/portrait.png",
+                        "image": "/images/aurora/old/portrait.png",
                         "position": "",
                         "artist": {
                             "name": "temero",
@@ -107,7 +107,7 @@
                         }
                     },
                     {
-                        "image": "/images/jaqreven/old/icon.png",
+                        "image": "/images/aurora/old/icon.png",
                         "position": "",
                         "artist": {
                             "name": "cheremtasy",
@@ -115,7 +115,7 @@
                         }
                     },
                     {
-                        "image": "/images/jaqreven/old/lake.png",
+                        "image": "/images/aurora/old/lake.png",
                         "position": "",
                         "artist": {
                             "name": "emerarudoshika",
@@ -129,7 +129,7 @@
     "pilvi": {
         "color": "is-pink is-pink-gradient",
         "name": "pilvi",
-        "bio": "she/her · sheep",
+        "bio": "sheep · she/her",
         "icon": "/images/pilvi/icon.png?dim=420",
         "galleries": [
             {
@@ -187,7 +187,7 @@
     "marja": {
         "color": "is-red is-red-gradient",
         "name": "marja",
-        "bio": "they/them · a",
+        "bio": "fairy fox · they/them",
         "icon": "/images/marja/character.png?dim=420",
         "galleries": [
             {
@@ -213,7 +213,7 @@
     "siru": {
         "color": "is-cyan is-cyan-gradient",
         "name": "siru",
-        "bio": "they/them · red panda",
+        "bio": "red panda · they/them",
         "icon": "/images/siru/headshot.png?dim=420",
         "galleries": [
             {

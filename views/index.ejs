@@ -5,9 +5,9 @@
 <head>
     <meta charset="utf-8">
 
-    <title>jaqreven</title>
-    <meta name="description" content="jaqreven's personal website fuck yea">
-    <meta name="author" content="jaqreven">
+    <title>emialis</title>
+    <meta name="description" content="emialis' personal website fuck yea">
+    <meta name="author" content="emilia repo">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -19,9 +19,9 @@
 
 <body>
     <%- include('components/header', {
-        title: "jaqreven",
+        title: "emialis",
         subtitle: "she/they · epic gamer",
-        icon: "/images/jaqreven/icon.png?dim=420",
+        icon: "/images/aurora/icon.png?dim=420",
         color: "is-primary"
     }) %>
 
@@ -54,7 +54,7 @@
                 behavior: 'smooth'
             })
         }
-        const elements = ["projects-cards", "fursonas-cards", "contacts-cards"];
+        const elements = ["projects-cards", "characters-cards", "contacts-cards"];
         elements.forEach(elementId => {
             const element = document.getElementById(elementId);
             console.log(element.scrollWidth + " " + element.parentElement.scrollWidth)

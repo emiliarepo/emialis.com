@@ -42,11 +42,11 @@ app.get('/', function (req, res) {
     })
 })
 
-app.get('/fursona/:name', function (req, res) {
-    const data = JSON.parse(fs.readFileSync("./fursonas.json"));
+app.get('/character/:name', function (req, res) {
+    const data = JSON.parse(fs.readFileSync("./characters.json"));
     const fursonaData = data[req.params.name];
     if (fursonaData) {
-        return res.render('fursona.ejs', {
+        return res.render('character.ejs', {
             fursona: fursonaData
         })
     } else {
@@ -54,8 +54,8 @@ app.get('/fursona/:name', function (req, res) {
     }
 })
 
-app.get('/fursona', function (req, res) {
-    return res.redirect("/#fursonas")
+app.get('/character', function (req, res) {
+    return res.redirect("/#characters")
 })
 
 
