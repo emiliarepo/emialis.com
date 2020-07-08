@@ -206,6 +206,14 @@
             {
                 "title": "main gallery",
                 "images": [
+                    {
+                        "image": "/images/marja/sketch.png",
+                        "position": "bottom-side",
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    }
                 ]
             }
         ]
