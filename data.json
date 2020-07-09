@@ -70,10 +70,10 @@
         "subtitle": "all them social medias",
         "cards": [{
                 "title": "telegram",
-                "description": "@jaqreven",
+                "description": "@emialis",
                 "image": "/images/assets/telegram.png?dim=420",
                 "square": false,
-                "link": "https://t.me/jaqreven",
+                "link": "https://t.me/emialis",
                 "newTab": true
             },
             {
@@ -86,10 +86,10 @@
             },
             {
                 "title": "twitter",
-                "description": "jaqreven",
+                "description": "emialis_",
                 "image": "/images/assets/twitter.png?dim=420",
                 "square": false,
-                "link": "https://twitter.com/jaqreven",
+                "link": "https://twitter.com/emialis_",
                 "newTab": true
             },
             {
@@ -102,18 +102,18 @@
             },
             {
                 "title": "youtube",
-                "description": "jaqreven",
+                "description": "emialis",
                 "image": "/images/assets/youtube.png?dim=420",
                 "square": false,
-                "link": "https://www.youtube.com/channel/UCCX-rVCiUYTKKtfBU1jdacg",
+                "link": "https://www.youtube.com/c/emialis",
                 "newTab": true
             },
             {
                 "title": "reddit",
-                "description": "jaqreven",
+                "description": "emialis",
                 "image": "/images/assets/reddit.png?dim=420",
                 "square": false,
-                "link": "https://reddit.com/u/jaqreven",
+                "link": "https://reddit.com/u/emialis_",
                 "newTab": true
             }
         ]
