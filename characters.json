@@ -1,15 +1,15 @@
 {
-    "aurora": {
+    "emialis": {
         "color": "is-purple is-purple-gradient",
-        "name": "aurora",
+        "name": "emialis",
         "bio": "deer · she/her",
-        "icon": "/images/aurora/icon.png?dim=420",
+        "icon": "/images/emialis/icon.png?dim=420",
         "galleries": [
             {
                 "title": "reference sheet",
                 "images": [
                     {
-                        "image": "/images/aurora/ref.png",
+                        "image": "/images/emialis/ref.png",
                         "position": "",
                         "artist": {
                             "name": "berrymeatart",
@@ -22,7 +22,7 @@
                 "title": "main gallery",
                 "images": [
                     {
-                        "image": "/images/aurora/icon.png",
+                        "image": "/images/emialis/icon.png",
                         "position": "",
                         "artist": {
                             "name": "berrymeatart",
@@ -30,7 +30,7 @@
                         }
                     },
                     {
-                        "image": "/images/aurora/vixndwnq-april2020.png",
+                        "image": "/images/emialis/vixndwnq-april2020.png",
                         "position": "",
                         "artist": {
                             "name": "berrymeatart",
@@ -43,7 +43,7 @@
                 "title": "old design",
                 "images": [
                     {
-                        "image": "/images/aurora/old/summer.jpg",
+                        "image": "/images/emialis/old/summer.jpg",
                         "position": "top-side",
                         "artist": {
                             "name": "berrymeatart",
@@ -51,7 +51,7 @@
                         }
                     },
                     {
-                        "image": "/images/aurora/old/pride-banner.png",
+                        "image": "/images/emialis/old/pride-banner.png",
                         "position": "right-side",
                         "artist": {
                             "name": "berrymeatart",
@@ -59,7 +59,7 @@
                         }
                     },
                     {
-                        "image": "/images/aurora/old/opossum.png",
+                        "image": "/images/emialis/old/opossum.png",
                         "position": "",
                         "artist": {
                             "name": "berrymeatart",
@@ -67,7 +67,7 @@
                         }
                     },
                     {
-                        "image": "/images/aurora/old/speedpaint.png",
+                        "image": "/images/emialis/old/speedpaint.png",
                         "position": "top-side",
                         "artist": {
                             "name": "kiwicabbit",
@@ -75,7 +75,7 @@
                         }
                     },
                     {
-                        "image": "/images/aurora/old/yum.png",
+                        "image": "/images/emialis/old/yum.png",
                         "position": "top-side",
                         "artist": {
                             "name": "crittervalley",
@@ -83,7 +83,7 @@
                         }
                     },
                     {
-                        "image": "/images/aurora/old/spooky.png",
+                        "image": "/images/emialis/old/spooky.png",
                         "position": "right-side",
                         "artist": {
                             "name": "foxinks",
@@ -91,7 +91,7 @@
                         }
                     },
                     {
-                        "image": "/images/aurora/old/fall.png",
+                        "image": "/images/emialis/old/fall.png",
                         "position": "",
                         "artist": {
                             "name": "pasteldawg",
@@ -99,7 +99,7 @@
                         }
                     },
                     {
-                        "image": "/images/aurora/old/portrait.png",
+                        "image": "/images/emialis/old/portrait.png",
                         "position": "",
                         "artist": {
                             "name": "temero",
@@ -107,7 +107,7 @@
                         }
                     },
                     {
-                        "image": "/images/aurora/old/icon.png",
+                        "image": "/images/emialis/old/icon.png",
                         "position": "",
                         "artist": {
                             "name": "cheremtasy",
@@ -115,7 +115,7 @@
                         }
                     },
                     {
-                        "image": "/images/aurora/old/lake.png",
+                        "image": "/images/emialis/old/lake.png",
                         "position": "",
                         "artist": {
                             "name": "emerarudoshika",
