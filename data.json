@@ -70,7 +70,7 @@
         "subtitle": "all them social medias",
         "cards": [{
                 "title": "telegram",
-                "description": "@emialis",
+                "description": "emialis",
                 "image": "/images/assets/telegram.png?dim=420",
                 "square": false,
                 "link": "https://t.me/emialis",
@@ -114,6 +114,14 @@
                 "image": "/images/assets/reddit.png?dim=420",
                 "square": false,
                 "link": "https://reddit.com/u/emialis_",
+                "newTab": true
+            },
+            {
+                "title": "instagram",
+                "description": "emialis_",
+                "image": "/images/assets/instagram.png?dim=420",
+                "square": false,
+                "link": "https://instagram.com/emialis_",
                 "newTab": true
             }
         ]
