@@ -166,7 +166,7 @@
                     },
                     {
                         "image": "/images/pilvi/winter.jpg",
-                        "position": "top-side",
+                        "position": "",
                         "artist": {
                             "name": "berrymeatart",
                             "url": "https://twitter.com/berrymeatart"
@@ -174,7 +174,7 @@
                     },
                     {
                         "image": "/images/pilvi/skin.png",
-                        "position": "",
+                        "position": "top-side",
                         "artist": {
                             "name": "berrymeatart",
                             "url": "https://twitter.com/berrymeatart"
