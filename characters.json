@@ -166,7 +166,7 @@
                     },
                     {
                         "image": "/images/pilvi/winter.jpg",
-                        "position": "",
+                        "position": "top-side",
                         "artist": {
                             "name": "berrymeatart",
                             "url": "https://twitter.com/berrymeatart"
