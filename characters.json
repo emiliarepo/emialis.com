@@ -22,6 +22,14 @@
                 "title": "main gallery",
                 "images": [
                     {
+                        "image": "/images/emialis/stickers.png",
+                        "position": "",
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
                         "image": "/images/emialis/icon.png",
                         "position": "",
                         "artist": {
