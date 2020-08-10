@@ -32,6 +32,14 @@
         "title": "my projects",
         "subtitle": "cool stuff i've worked on",
         "cards": [{
+                "title": "?????",
+                "description": "something cool 👀",
+                "image": "/images/assets/surprise.png?dim=420",
+                "square": false,
+                "link": "https://www.youtube.com/watch?v=fC7oUOUEEi4",
+                "newTab": true
+            },
+            {
                 "title": "jcolour",
                 "description": "discord bot for managing colour, custom hex and opt-in roles",
                 "image": "/images/assets/jcolour.png?dim=420",
