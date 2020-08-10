@@ -1,0 +1,6 @@
+# lol wtf are you doing here
+# you aren't missing out on anything cool
+
+User-Agent: *
+Disallow: /images/assets
+Disallow: /images/siru
