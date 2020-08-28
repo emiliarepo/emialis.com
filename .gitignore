@@ -1,4 +1,4 @@
 /node_modules
 /public/.cache
-.DS_STORE
 /public/images/nsfw
+.DS_STORE
