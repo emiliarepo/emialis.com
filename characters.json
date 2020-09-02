@@ -253,6 +253,15 @@
                         }
                     },
                     {
+                        "image": "/images/marja/popsicle.png",
+                        "position": "",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
                         "image": "/images/marja/character.png",
                         "position": "",
                         "nsfw": false,
