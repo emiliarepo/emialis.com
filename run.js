@@ -50,7 +50,11 @@ app.get('/character/:name', function (req, res) {
             fursona: fursonaData
         })
     } else {
-        return res.status(404).send("Unknown name")
+        return res.status(404).render('error.ejs', {
+            errorNum: 404,
+            errorMsg: "character not found.",
+            description: "as far as I can tell, this is a normal error.",
+        })
     }
 })
 
