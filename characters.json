@@ -224,7 +224,7 @@
         "color": "is-red is-red-gradient",
         "name": "marja",
         "bio": "fairy fox · they/them",
-        "icon": "/images/marja/sketch.png?dim=420",
+        "icon": "/images/marja/icon.png?dim=420",
         "galleries": [
             {
                 "title": "reference sheet",
@@ -254,6 +254,15 @@
                     },
                     {
                         "image": "/images/marja/popsicle.png",
+                        "position": "",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
+                        "image": "/images/marja/icon.png",
                         "position": "",
                         "nsfw": false,
                         "artist": {
