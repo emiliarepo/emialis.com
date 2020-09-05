@@ -48,6 +48,15 @@
                             "name": "berrymeatart",
                             "url": "https://twitter.com/berrymeatart"
                         }
+                    },
+                    {
+                        "image": "/images/nsfw/em-pinup.png",
+                        "position": "",
+                        "nsfw": true,
+                        "artist": {
+                            "name": "tailtufts",
+                            "url": "https://twitter.com/dogtufts"
+                        }
                     }
                 ]
             },
