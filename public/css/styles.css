@@ -303,9 +303,27 @@ section .title,
     z-index: 10;
     position: absolute; 
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
     width: 100%;
     text-align: center;
     padding: 5px;
     user-select: none;
+    color: #ffe3e3 !important;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.nsfw-image {
+    -webkit-filter: blur(25px); /* Safari 6.0 - 9.0 */
+    filter: blur(25px);
+    transition-duration: 0.2s;
+    overflow: hidden !important;
+}
+
+.nsfw-image-container:hover > .nsfw-image {
+    -webkit-filter: blur(15px); /* Safari 6.0 - 9.0 */
+    filter: blur(15px); 
+    transition-duration: 0.2s;
+}
+
+.is-thumbnail {
+    overflow: hidden;
 }
