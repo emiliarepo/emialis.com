@@ -135,6 +135,10 @@ section .title,
     border-radius: 8px 8px 0px 0px;
 }
 
+.gallery-image {
+    overflow: hidden;
+}
+
 .modal-content {
     background-color: var(--card-background);
     width: auto;
