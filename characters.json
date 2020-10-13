@@ -199,6 +199,15 @@
                         }
                     },
                     {
+                        "image": "/images/pilvi/pumpkin.png",
+                        "position": "",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
                         "image": "/images/pilvi/headshot.png",
                         "position": "",
                         "nsfw": false,
