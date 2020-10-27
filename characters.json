@@ -59,6 +59,15 @@
                         }
                     },
                     {
+                        "image": "/images/emialis/plush.png",
+                        "position": "",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
                         "image": "/images/nsfw/em-pinup.png",
                         "position": "",
                         "nsfw": true,
@@ -199,15 +208,6 @@
                         }
                     },
                     {
-                        "image": "/images/pilvi/pumpkin.png",
-                        "position": "",
-                        "nsfw": false,
-                        "artist": {
-                            "name": "berrymeatart",
-                            "url": "https://twitter.com/berrymeatart"
-                        }
-                    },
-                    {
                         "image": "/images/pilvi/headshot.png",
                         "position": "",
                         "nsfw": false,
@@ -241,6 +241,29 @@
                         "artist": {
                             "name": "wallabytea",
                             "url": "https://twitter.com/wallabytea"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "midnight design",
+                "images": [
+                    {
+                        "image": "/images/pilvi/pumpkin.png",
+                        "position": "",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
+                        "image": "/images/pilvi/plush.png",
+                        "position": "",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
                         }
                     }
                 ]

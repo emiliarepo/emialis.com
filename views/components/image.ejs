@@ -1,3 +1,4 @@
+<% if (!data.nsfw) { %>
 <div class="column is-full-mobile is-one-third-tablet is-3-desktop gallery-image-parent">
         <div class="image grow gallery-image" onclick="openThumbnail('<%= data.image %>', '<%= data.artist.name %>', '<%= data.artist.url %>')">
             <figure class="image is-fullwidth is-4by3 is-thumbnail <%= data.nsfw ? " nsfw-image-container" : ""%>">
@@ -8,3 +9,4 @@
             </figure>
         </div>
 </div>
+<% } %>
