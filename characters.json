@@ -249,6 +249,15 @@
                 "title": "midnight design",
                 "images": [
                     {
+                        "image": "/images/pilvi/freakshow.jpg",
+                        "position": "",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
                         "image": "/images/pilvi/pumpkin.png",
                         "position": "",
                         "nsfw": false,
