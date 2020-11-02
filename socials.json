@@ -1,0 +1,26 @@
+[
+    {
+        "class": "fab fa-telegram-plane fa-2x",
+        "link": "https://t.me/emialis"
+    },
+    {
+        "class": "fab fa-discord fa-2x",
+        "text": "emialis#9891"
+    },
+    {
+        "class": "fab fa-twitter fa-2x",
+        "link": "https://twitter.com/emialis_"
+    },
+    {
+        "class": "fab fa-youtube fa-2x",
+        "link": "https://www.youtube.com/c/emialis"
+    },
+    {
+        "class": "fab fa-github fa-2x",
+        "link": "https://github.com/emiliarepo"
+    },
+    {
+        "class": "fas fa-coffee fa-2x",
+        "link": "https://ko-fi.com/emialis"
+    }
+]

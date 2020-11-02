@@ -36,24 +36,29 @@ console.log(__dirname)
  */
 
 app.get('/', function (req, res) {
-    const data = JSON.parse(fs.readFileSync("./data.json"));
+    const cards = JSON.parse(fs.readFileSync("./cards.json"));
+    const socials = JSON.parse(fs.readFileSync("./socials.json"));
     return res.render('index.ejs', {
-        data: data
+        cards: cards,
+        socials: socials
     })
 })
 
 app.get('/character/:name', function (req, res) {
     const data = JSON.parse(fs.readFileSync("./characters.json"));
     const fursonaData = data[req.params.name];
+    const socials = JSON.parse(fs.readFileSync("./socials.json"));
     if (fursonaData) {
         return res.render('character.ejs', {
-            fursona: fursonaData
+            fursona: fursonaData,
+            socials: socials
         })
     } else {
         return res.status(404).render('error.ejs', {
             errorNum: 404,
             errorMsg: "character not found.",
             description: "as far as I can tell, this is a normal error.",
+            socials: socials
         })
     }
 })
@@ -66,10 +71,12 @@ app.get('/character', function (req, res) {
 // Error Handling
 
 app.use(function (req, res) { // 404
+    const socials = JSON.parse(fs.readFileSync("./socials.json"));
     return res.status(404).render('error.ejs', {
         errorNum: 404,
         errorMsg: "file not found.",
         description: "as far as I can tell, this is a normal error.",
+        socials: socials
     })
 });
 
@@ -79,6 +86,7 @@ app.use(function (err, req, res, next) { // other errors
         errorNum: 500,
         errorMsg: "internal server error",
         description: "this really wasn't supposed to happen!",
+        socials: {}
     });
 });
 

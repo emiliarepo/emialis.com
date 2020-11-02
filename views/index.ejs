@@ -20,25 +20,26 @@
         color: "is-primary"
     }) %>
 
-    <% Object.keys(data).forEach(key => { %>
+    <% Object.keys(cards).forEach(key => { %>
         <section class="section has-bottom-shadow" id=<%= key %>>
             <div class="container">
                 <h1 class="title">
-                    <%= data[key].title %>
+                    <%= cards[key].title %>
                 </h1>
                 <h2 class="subtitle">
-                    <%= data[key].subtitle %>
+                    <%= cards[key].subtitle %>
                 </h2>
                 <%- include('components/cardview', {
                     contentId: key + "-cards",
-                    cards: data[key].cards
+                    cards: cards[key].cards
                 }) %>
             </div>
         </section>
     <% }) %>
 
     <%- include('components/footer', {
-        color: "is-primary"
+        color: "is-primary",
+        socials: socials
     }) %>
 
     <script>

@@ -1,6 +1,43 @@
 <footer class="footer hero <%= color %> is-bold has-strong-bottom-shadow">
+
+    <% console.log(socials) %>
+
+        <div class="icons">
+            <% socials.forEach(social => { %>
+                <% if (social.link) {%> <a href="<%= social.link %>" target="_blank"> <%} %>
+                <span class="icon is-large" <% if (social.text) { %> onClick="openTextModal('<%= social.text %>')" <% } %>>
+                    <i class="<%= social.class %>"></i>
+                </span>
+                <% if (social.link) {%> </a> <%} %>
+
+            <% }) %>
+        </div>
+
     <div class="content">
         <p>&copy; 2020 <strong>emialis</strong> / emilia repo<br />
         website licensed under the <strong><a style="color: white" target="_blank" href="https://github.com/emiliarepo/emialis.com">mit license</a></strong></p>
     </div>
 </footer>
+
+<div class="modal" id="text-modal">
+    <div class="modal-background" onclick="closeModal()"></div>
+    <div class="modal-content">
+        <div class="box">
+            <p id="modal-text"> modal text </p>
+        </div>
+      </div>
+    <button class="modal-close is-large" aria-label="close" onclick="closeModal()"></button>
+</div>
+
+<script>
+
+    function openTextModal(text) {
+        document.getElementById("text-modal").classList.add("is-active");
+        document.getElementById("modal-text").innerHTML = text;
+    }
+
+    function closeModal() {
+        document.getElementById("text-modal").classList.remove("is-active");
+    }
+
+</script>

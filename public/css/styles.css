@@ -127,7 +127,7 @@ section .title,
 .card,
 .gallery-image,
 .gallery-image .image img,
-.modal-content {
+#modal-content {
     border-radius: 8px;
 }
 
@@ -139,7 +139,7 @@ section .title,
     overflow: hidden;
 }
 
-.modal-content {
+#modal-content {
     background-color: var(--card-background);
     width: auto;
     /* max-height: 80vh; */
@@ -330,4 +330,15 @@ section .title,
 
 .is-thumbnail {
     overflow: hidden;
+}
+
+/* icons */
+
+.icons {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.icon {
+    cursor: pointer;
 }
