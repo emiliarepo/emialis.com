@@ -2,7 +2,7 @@
 
         <div class="icons">
             <% socials.forEach(social => { %>
-                <% if (social.link) {%> <a href="<%= social.link %>" target="_blank"> <%} %>
+                <% if (social.link) {%> <a href="<%= social.link %>" target="_blank" class="is-white"> <%} %>
                 <span class="icon is-large" <% if (social.text) { %> onClick="openTextModal('<%= social.text %>')" <% } %>>
                     <i class="<%= social.class %>"></i>
                 </span>
@@ -13,7 +13,7 @@
 
     <div class="content">
         <p>&copy; 2020 <strong>emialis</strong> / emilia repo<br />
-        website licensed under the <strong><a style="color: white" target="_blank" href="https://github.com/emiliarepo/emialis.com">mit license</a></strong></p>
+        website licensed under the <strong><a class="is-white" target="_blank" href="https://github.com/emiliarepo/emialis.com">mit license</a></strong></p>
     </div>
 </footer>
 
