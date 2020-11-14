@@ -50,6 +50,15 @@
                         }
                     },
                     {
+                        "image": "/images/emialis/icon-fall.png",
+                        "position": "",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
                         "image": "/images/emialis/vixndwnq-april2020.png",
                         "position": "",
                         "nsfw": false,
