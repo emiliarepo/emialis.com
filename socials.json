@@ -5,7 +5,8 @@
     },
     {
         "class": "fab fa-discord fa-2x",
-        "text": "emialis#9891"
+        "_text": "emialis#9891",
+        "link": "https://discord.bio/p/emialis"
     },
     {
         "class": "fab fa-twitter fa-2x",
