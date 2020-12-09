@@ -23,12 +23,12 @@
                 "title": "main gallery",
                 "images": [
                     {
-                        "image": "/images/emialis/lol.png",
-                        "position": "top-side",
+                        "image": "/images/emialis/kigu.png",
+                        "position": "",
                         "nsfw": false,
                         "artist": {
-                            "name": "some furry on verm",
-                            "url": "https://v3rmillion.net"
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
                         }
                     },
                     {
