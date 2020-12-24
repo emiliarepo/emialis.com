@@ -51,7 +51,8 @@ app.get('/character/:name', function (req, res) {
     if (fursonaData) {
         return res.render('character.ejs', {
             fursona: fursonaData,
-            socials: socials
+            socials: socials,
+            showNsfw: false
         })
     } else {
         return res.status(404).render('error.ejs', {
@@ -65,6 +66,38 @@ app.get('/character/:name', function (req, res) {
 
 app.get('/character', function (req, res) {
     return res.redirect("/#characters")
+})
+
+app.get('/nsfw', function (req, res) {
+    const galleries = [];
+    const characters = JSON.parse(fs.readFileSync("./characters.json"));
+    Object.keys(characters).forEach(character => {
+        const characterImages = [];
+        Object.keys(characters[character].galleries).forEach(gallery => {
+            characters[character].galleries[gallery].images.forEach(image => {
+                if (image.nsfw) characterImages.push(image);
+            })
+        })
+        if (characterImages.length > 0) galleries.push({
+            title: characters[character].name,
+            images: characterImages
+        })
+    })
+
+    const data = {
+        name: "NSFW Art",
+        color: "is-red is-red-gradient",
+        bio: "Various characters, 18+ only!",
+        icon: "/images/emialis/icon.png?dim=420",
+        galleries: galleries
+    }
+
+    const socials = JSON.parse(fs.readFileSync("./socials.json"));
+    return res.render('character.ejs', {
+        fursona: data,
+        socials: socials,
+        showNsfw: true
+    })
 })
 
 

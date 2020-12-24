@@ -6,7 +6,8 @@
         <div class="columns is-multiline is-mobile">
             <% gallery.images.forEach( image => { %>
                 <%- include('image', {
-                    data: image
+                    data: image,
+                    showNsfw: showNsfw
                 }) %>
             <% }) %>
         </div>

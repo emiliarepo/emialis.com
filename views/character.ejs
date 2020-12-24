@@ -22,7 +22,8 @@
 
     <% fursona.galleries.forEach(gallery => { %>
         <%- include('components/gallery', {
-            gallery: gallery
+            gallery: gallery,
+            showNsfw: showNsfw
         }) %>
     <% }) %>
 

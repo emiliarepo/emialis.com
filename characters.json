@@ -96,11 +96,20 @@
                     },
                     {
                         "image": "/images/nsfw/em-pinup.png",
-                        "position": "",
+                        "position": "top-side",
                         "nsfw": true,
                         "artist": {
                             "name": "tailtufts",
                             "url": "https://twitter.com/dogtufts"
+                        }
+                    },
+                    {
+                        "image": "/images/nsfw/em-sweater.png",
+                        "position": "top-side",
+                        "nsfw": true,
+                        "artist": {
+                            "name": "sp00khound",
+                            "url": "https://twitter.com/spxxkhound"
                         }
                     }
                 ]
