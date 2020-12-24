@@ -68,6 +68,15 @@
                         }
                     },
                     {
+                        "image": "/images/emialis/icon-winter.png",
+                        "position": "",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
                         "image": "/images/emialis/vixndwnq-april2020.png",
                         "position": "",
                         "nsfw": false,
@@ -226,6 +235,15 @@
                         }
                     },
                     {
+                        "image": "/images/pilvi/wreath.png",
+                        "position": "",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
                         "image": "/images/pilvi/headshot.png",
                         "position": "",
                         "nsfw": false,
@@ -267,7 +285,7 @@
                 "title": "midnight design",
                 "images": [
                     {
-                        "image": "/images/pilvi/freakshow.jpg",
+                        "image": "/images/pilvi/midnight/freakshow.jpg",
                         "position": "",
                         "nsfw": false,
                         "artist": {
@@ -276,7 +294,7 @@
                         }
                     },
                     {
-                        "image": "/images/pilvi/pumpkin.png",
+                        "image": "/images/pilvi/midnight/pumpkin.png",
                         "position": "",
                         "nsfw": false,
                         "artist": {
@@ -285,7 +303,7 @@
                         }
                     },
                     {
-                        "image": "/images/pilvi/plush.png",
+                        "image": "/images/pilvi/midnight/plush.png",
                         "position": "",
                         "nsfw": false,
                         "artist": {
@@ -294,7 +312,7 @@
                         }
                     },
                     {
-                        "image": "/images/pilvi/skin-midnight.png",
+                        "image": "/images/pilvi/midnight/skin-midnight.png",
                         "position": "top-side",
                         "nsfw": false,
                         "artist": {
