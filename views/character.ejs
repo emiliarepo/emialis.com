@@ -13,26 +13,31 @@
 </head>
 
 <body>
-    <%- include('components/header', {
-        title: fursona.name,
-        subtitle: fursona.bio,
-        icon: fursona.icon,
-        color: fursona.color
-    }) %>
-
-    <% fursona.galleries.forEach(gallery => { %>
-        <%- include('components/gallery', {
-            gallery: gallery,
-            showNsfw: showNsfw
+    <% if (showNsfw) { %> 
+        <%- include('components/nsfwmodal') %>
+    <% } %>
+    <div id="character-content" class="<%= showNsfw ? 'is-blurred' : ''%>">
+        <%- include('components/header', {
+            title: fursona.name,
+            subtitle: fursona.bio,
+            icon: fursona.icon,
+            color: fursona.color
         }) %>
-    <% }) %>
-
-    <%- include('components/footer', {
-        color: fursona.color,
-        socials: socials
-    }) %>
-
-    <%- include('components/imagemodal') %>
+    
+        <% fursona.galleries.forEach(gallery => { %>
+            <%- include('components/gallery', {
+                gallery: gallery,
+                showNsfw: showNsfw
+            }) %>
+        <% }) %>
+    
+        <%- include('components/footer', {
+            color: fursona.color,
+            socials: socials
+        }) %>
+    
+        <%- include('components/imagemodal') %>
+    </div>
 </body>
 
 </html>

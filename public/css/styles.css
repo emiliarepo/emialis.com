@@ -328,6 +328,10 @@ section .title,
     transition-duration: 0.2s;
 }
 
+.is-blurred{
+    -webkit-filter: blur(25px);
+    filter: blur(25px);
+}
 .is-thumbnail {
     overflow: hidden;
 }

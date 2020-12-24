@@ -1,0 +1,26 @@
+<div class="modal is-active" id="nsfw-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+        <header class="modal-card-head">
+            <p class="modal-card-title">NSFW Content Ahead</p>
+            <!-- <button class="delete" aria-label="close"></button> -->
+        </header>
+        <section class="modal-card-body">
+            <p>
+                This site features explicit content. <br />
+                If you are a minor, kindly fuck off.
+            </p>
+        </section>
+        <footer class="modal-card-foot">
+            <button class="button is-success" onclick="closeNsfw()">Show me the goods!</button>
+            <a href="/" class="button is-danger">Get me out of here!</a>
+        </footer>
+    </div>
+</div>
+
+<script>
+    function closeNsfw() {
+        document.getElementById("nsfw-modal").classList.remove("is-active");
+        document.getElementById("character-content").classList.remove("is-blurred");
+    }
+</script>
