@@ -88,7 +88,7 @@ app.get('/nsfw', function (req, res) {
         name: "NSFW Art",
         color: "is-red is-red-gradient",
         bio: "Various characters, 18+ only!",
-        icon: "/images/emialis/icon.png?dim=420",
+        icon: "/images/nsfw/icon.png?dim=420",
         galleries: galleries
     }
 
