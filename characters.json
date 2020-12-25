@@ -95,6 +95,15 @@
                         }
                     },
                     {
+                        "image": "/images/nsfw/em-crisis.png",
+                        "position": "top-side",
+                        "nsfw": true,
+                        "artist": {
+                            "name": "MeldritchArts",
+                            "url": "https://twitter.com/meldritcharts"
+                        }
+                    },
+                    {
                         "image": "/images/nsfw/em-pinup.png",
                         "position": "top-side",
                         "nsfw": true,
