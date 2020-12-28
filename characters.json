@@ -120,48 +120,21 @@
                             "name": "berrymeatart",
                             "url": "https://twitter.com/berrymeatart"
                         }
-                    }
-                ]
-            },
-            {
-                "title": "old design",
-                "images": [
-                    {
-                        "image": "/images/emialis/old/summer.jpg",
-                        "position": "top-side",
-                        "nsfw": false,
-                        "artist": {
-                            "name": "berrymeatart",
-                            "url": "https://twitter.com/berrymeatart"
-                        }
                     },
                     {
-                        "image": "/images/emialis/old/pride-banner.png",
-                        "position": "right-side",
-                        "nsfw": false,
-                        "artist": {
-                            "name": "berrymeatart",
-                            "url": "https://twitter.com/berrymeatart"
-                        }
-                    },
-                    {
-                        "image": "/images/emialis/old/opossum.png",
-                        "position": "",
-                        "nsfw": false,
-                        "artist": {
-                            "name": "berrymeatart",
-                            "url": "https://twitter.com/berrymeatart"
-                        }
-                    },
-                    {
-                        "image": "/images/emialis/old/speedpaint.png",
+                        "image": "/images/emialis/speedpaint.png",
                         "position": "top-side",
                         "nsfw": false,
                         "artist": {
                             "name": "kiwicabbit",
                             "url": "https://twitter.com/kiwicabbit"
                         }
-                    },
+                    }
+                ]
+            },
+            {
+                "title": "old design",
+                "images": [
                     {
                         "image": "/images/emialis/old/yum.png",
                         "position": "top-side",
@@ -190,12 +163,30 @@
                         }
                     },
                     {
-                        "image": "/images/emialis/old/portrait.png",
+                        "image": "/images/emialis/old/opossum.png",
                         "position": "",
                         "nsfw": false,
                         "artist": {
-                            "name": "temero",
-                            "url": "https://furaffinity.net/user/temero"
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
+                        "image": "/images/emialis/old/pride-banner.png",
+                        "position": "right-side",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
+                        "image": "/images/emialis/old/summer.jpg",
+                        "position": "top-side",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
                         }
                     },
                     {
@@ -208,12 +199,12 @@
                         }
                     },
                     {
-                        "image": "/images/emialis/old/lake.png",
+                        "image": "/images/emialis/old/portrait.png",
                         "position": "",
                         "nsfw": false,
                         "artist": {
-                            "name": "emerarudoshika",
-                            "url": "https://furaffinity.net/user/emerarudoshika"
+                            "name": "temero",
+                            "url": "https://furaffinity.net/user/temero"
                         }
                     }
                 ]
