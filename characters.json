@@ -23,43 +23,25 @@
                 "title": "main gallery",
                 "images": [
                     {
+                        "image": "/images/nsfw/em-crisis.png",
+                        "position": "top-side",
+                        "nsfw": true,
+                        "artist": {
+                            "name": "MeldritchArts",
+                            "url": "https://twitter.com/meldritcharts"
+                        }
+                    },
+                    {
+                        "image": "/images/nsfw/em-sweater.png",
+                        "position": "top-side",
+                        "nsfw": true,
+                        "artist": {
+                            "name": "sp00khound",
+                            "url": "https://twitter.com/spxxkhound"
+                        }
+                    },
+                    {
                         "image": "/images/multi/kigu.png",
-                        "position": "",
-                        "nsfw": false,
-                        "artist": {
-                            "name": "berrymeatart",
-                            "url": "https://twitter.com/berrymeatart"
-                        }
-                    },
-                    {
-                        "image": "/images/emialis/underwater.png",
-                        "position": "",
-                        "nsfw": false,
-                        "artist": {
-                            "name": "boltie",
-                            "url": "https://twitter.com/boltie_"
-                        }
-                    },
-                    {
-                        "image": "/images/emialis/stickers.png",
-                        "position": "",
-                        "nsfw": false,
-                        "artist": {
-                            "name": "berrymeatart",
-                            "url": "https://twitter.com/berrymeatart"
-                        }
-                    },
-                    {
-                        "image": "/images/emialis/icon.png",
-                        "position": "",
-                        "nsfw": false,
-                        "artist": {
-                            "name": "berrymeatart",
-                            "url": "https://twitter.com/berrymeatart"
-                        }
-                    },
-                    {
-                        "image": "/images/emialis/icon-fall.png",
                         "position": "",
                         "nsfw": false,
                         "artist": {
@@ -77,7 +59,7 @@
                         }
                     },
                     {
-                        "image": "/images/emialis/vixndwnq-april2020.png",
+                        "image": "/images/emialis/icon-fall.png",
                         "position": "",
                         "nsfw": false,
                         "artist": {
@@ -95,12 +77,12 @@
                         }
                     },
                     {
-                        "image": "/images/nsfw/em-crisis.png",
-                        "position": "top-side",
-                        "nsfw": true,
+                        "image": "/images/emialis/underwater.png",
+                        "position": "",
+                        "nsfw": false,
                         "artist": {
-                            "name": "MeldritchArts",
-                            "url": "https://twitter.com/meldritcharts"
+                            "name": "boltie",
+                            "url": "https://twitter.com/boltie_"
                         }
                     },
                     {
@@ -113,12 +95,30 @@
                         }
                     },
                     {
-                        "image": "/images/nsfw/em-sweater.png",
-                        "position": "top-side",
-                        "nsfw": true,
+                        "image": "/images/emialis/stickers.png",
+                        "position": "",
+                        "nsfw": false,
                         "artist": {
-                            "name": "sp00khound",
-                            "url": "https://twitter.com/spxxkhound"
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
+                        "image": "/images/emialis/vixndwnq-april2020.png",
+                        "position": "",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
+                        "image": "/images/emialis/icon.png",
+                        "position": "",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
                         }
                     }
                 ]
@@ -231,11 +231,11 @@
                 "images": [
                     {
                         "image": "/images/pilvi/ref.png",
-                        "position": "top-side",
+                        "position": "",
                         "nsfw": false,
                         "artist": {
-                            "name": "heartspark",
-                            "url": "https://twitter.com/_heartspark"
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
                         }
                     }
                 ]
@@ -243,15 +243,6 @@
             {
                 "title": "standard design",
                 "images": [
-                    {
-                        "image": "/images/pilvi/icon.png",
-                        "position": "",
-                        "nsfw": false,
-                        "artist": {
-                            "name": "berrymeatart",
-                            "url": "https://twitter.com/berrymeatart"
-                        }
-                    },
                     {
                         "image": "/images/pilvi/wreath.png",
                         "position": "",
@@ -262,7 +253,7 @@
                         }
                     },
                     {
-                        "image": "/images/pilvi/headshot.png",
+                        "image": "/images/pilvi/icon.png",
                         "position": "",
                         "nsfw": false,
                         "artist": {
@@ -289,12 +280,30 @@
                         }
                     },
                     {
+                        "image": "/images/pilvi/headshot.png",
+                        "position": "",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
                         "image": "/images/pilvi/icon2.png",
                         "position": "",
                         "nsfw": false,
                         "artist": {
                             "name": "wallabytea",
                             "url": "https://twitter.com/wallabytea"
+                        }
+                    },
+                    {
+                        "image": "/images/pilvi/oldref.png",
+                        "position": "top-side",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "heartspark",
+                            "url": "https://twitter.com/_heartspark"
                         }
                     }
                 ]
@@ -312,7 +321,7 @@
                         }
                     },
                     {
-                        "image": "/images/pilvi/midnight/pumpkin.png",
+                        "image": "/images/pilvi/midnight/plush.png",
                         "position": "",
                         "nsfw": false,
                         "artist": {
@@ -321,7 +330,7 @@
                         }
                     },
                     {
-                        "image": "/images/pilvi/midnight/plush.png",
+                        "image": "/images/pilvi/midnight/pumpkin.png",
                         "position": "",
                         "nsfw": false,
                         "artist": {
@@ -366,8 +375,17 @@
                 "title": "main gallery",
                 "images": [
                     {
-                        "image": "/images/marja/sketch.png",
-                        "position": "bottom-side",
+                        "image": "/images/multi/kigu.png",
+                        "position": "",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
+                        "image": "/images/marja/icon.png",
+                        "position": "",
                         "nsfw": false,
                         "artist": {
                             "name": "berrymeatart",
@@ -384,17 +402,8 @@
                         }
                     },
                     {
-                        "image": "/images/multi/kigu.png",
-                        "position": "",
-                        "nsfw": false,
-                        "artist": {
-                            "name": "berrymeatart",
-                            "url": "https://twitter.com/berrymeatart"
-                        }
-                    },
-                    {
-                        "image": "/images/marja/icon.png",
-                        "position": "",
+                        "image": "/images/marja/sketch.png",
+                        "position": "bottom-side",
                         "nsfw": false,
                         "artist": {
                             "name": "berrymeatart",
