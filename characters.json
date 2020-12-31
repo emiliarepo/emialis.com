@@ -218,10 +218,19 @@
         "icon": "/images/pilvi/icon.png?dim=420",
         "galleries": [
             {
-                "title": "reference sheet",
+                "title": "reference sheets",
                 "images": [
                     {
                         "image": "/images/pilvi/ref.png",
+                        "position": "",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
+                        "image": "/images/pilvi/midnight/ref.png",
                         "position": "",
                         "nsfw": false,
                         "artist": {
@@ -232,7 +241,7 @@
                 ]
             },
             {
-                "title": "standard design",
+                "title": "standard form",
                 "images": [
                     {
                         "image": "/images/pilvi/wreath.png",
@@ -300,7 +309,7 @@
                 ]
             },
             {
-                "title": "midnight design",
+                "title": "midnight form",
                 "images": [
                     {
                         "image": "/images/pilvi/midnight/freakshow.jpg",
