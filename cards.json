@@ -2,7 +2,8 @@
     "characters": {
         "title": "fursonas & ocs",
         "subtitle": "v cute uwu 💖",
-        "cards": [{
+        "cards": [
+            {
                 "title": "emialis",
                 "description": "deer · she/they",
                 "image": "/images/emialis/icon.png?dim=420",
@@ -25,13 +26,22 @@
                 "square": true,
                 "link": "/character/marja",
                 "newTab": false
+            },
+            {
+                "title": "hede",
+                "description": "opossum · they/them",
+                "image": "/images/hede/icon.jpeg?dim=420",
+                "square": true,
+                "link": "/character/hede",
+                "newTab": false
             }
         ]
     },
     "projects": {
         "title": "my projects",
         "subtitle": "cool stuff i've worked on",
-        "cards": [{
+        "cards": [
+            {
                 "title": "freakshow",
                 "description": "spooky minecraft amusement park with rides",
                 "image": "/images/assets/freakshow.png?dim=420",

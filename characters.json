@@ -441,6 +441,42 @@
             }
         ]
     },
+    "hede": {
+        "color": "is-yellow is-yellow-gradient",
+        "name": "hede",
+        "bio": "opossum · they/them",
+        "icon": "/images/hede/icon.jpeg?dim=420",
+        "galleries": [
+            {
+                "title": "reference sheet",
+                "images": [
+                    {
+                        "image": "/images/hede/ref.png",
+                        "position": "right-side",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "fosbat",
+                            "url": "https://twitter.com/fosbat"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "main gallery",
+                "images": [
+                    {
+                        "image": "/images/hede/fullbody.png",
+                        "position": "top-side",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "fosbat",
+                            "url": "https://twitter.com/fosbat"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
     "siru": {
         "color": "is-cyan is-cyan-gradient",
         "name": "siru",
