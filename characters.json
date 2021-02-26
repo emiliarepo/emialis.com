@@ -23,6 +23,15 @@
                 "title": "main gallery",
                 "images": [
                     {
+                        "image": "/images/emialis/wolfsifi-couples.png",
+                        "position": "top-side",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "wolfsifi",
+                            "url": "https://twitter.com/wolfsifi"
+                        }
+                    },
+                    {
                         "image": "/images/emialis/vix-couples.jpg",
                         "position": "",
                         "nsfw": false,
