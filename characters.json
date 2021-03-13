@@ -23,6 +23,15 @@
                 "title": "main gallery",
                 "images": [
                     {
+                        "image": "/images/emialis/stickers.png",
+                        "position": "",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
                         "image": "/images/emialis/wolfsifi-couples.png",
                         "position": "top-side",
                         "nsfw": false,
@@ -119,15 +128,6 @@
                         "artist": {
                             "name": "tailtufts",
                             "url": "https://twitter.com/dogtufts"
-                        }
-                    },
-                    {
-                        "image": "/images/emialis/stickers.png",
-                        "position": "",
-                        "nsfw": false,
-                        "artist": {
-                            "name": "berrymeatart",
-                            "url": "https://twitter.com/berrymeatart"
                         }
                     },
                     {
