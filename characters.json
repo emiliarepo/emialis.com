@@ -402,6 +402,15 @@
                 "title": "main gallery",
                 "images": [
                     {
+                        "image": "/images/marja/plush.png",
+                        "position": "",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "berrymeatart",
+                            "url": "https://twitter.com/berrymeatart"
+                        }
+                    },
+                    {
                         "image": "/images/multi/kigu.png",
                         "position": "",
                         "nsfw": false,
