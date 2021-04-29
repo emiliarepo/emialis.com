@@ -21,6 +21,10 @@
         "link": "https://github.com/emiliarepo"
     },
     {
+        "class": "fab fa-lastfm fa-2x",
+        "link": "https://www.last.fm/user/emiaIis"
+    },
+    {
         "class": "fas fa-coffee fa-2x",
         "link": "https://ko-fi.com/emialis"
     }
