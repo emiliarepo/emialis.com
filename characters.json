@@ -463,7 +463,7 @@
         "color": "is-yellow is-yellow-gradient",
         "name": "hede",
         "bio": "opossum · they/them",
-        "icon": "/images/hede/icon.jpeg?dim=420",
+        "icon": "/images/hede/icon.png?dim=420",
         "galleries": [
             {
                 "title": "reference sheet",
@@ -482,6 +482,15 @@
             {
                 "title": "main gallery",
                 "images": [
+                    {
+                        "image": "/images/hede/icon.png",
+                        "position": "",
+                        "nsfw": false,
+                        "artist": {
+                            "name": "fosbat",
+                            "url": "https://twitter.com/fosbat"
+                        }
+                    },
                     {
                         "image": "/images/hede/fullbody.png",
                         "position": "top-side",
